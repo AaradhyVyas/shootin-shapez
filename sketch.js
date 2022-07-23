@@ -27,9 +27,9 @@ var stage = 1;
 // var gate = createSprite(0,0,20,70);
 // gate.shapeColor = "purple";
 
-function preload(){
-  enemyimg=loadAnimation(enemy.tri.jpg)
-}
+// function preload(){
+//   enemyimg=loadAnimation(enemy.tri.jpg)
+// }
 
 function setup(){
 
@@ -187,7 +187,7 @@ function spawnEnemy(){
         enemy.shapeColor = "#9d1f0a";
         enemy.velocityY = v;
         enemy.lifetime = height/v+20;
-        enemy.Animation(enemyimg)
+        //enemy.Animation(enemyimg)
         enemyGroup.add(enemy);
       }
       
